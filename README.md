@@ -4,4 +4,5 @@
 ### It gives access to useful methods for JS users such as infixToPostFix ,resolvePostFix or resolveInfix methods.
 <br>
 ## HTML Usage
+
 Basic usage:
