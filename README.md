@@ -39,18 +39,20 @@ There is the list of all the available color attributes:
 - borderColor - The color of the calculator border
 <br>
 You can specify your own layout for the keypad, in a very flexible way. Simply write JSON string representing a matrix array of the desired keypad, use blank string "" when you want no button (will leave a space) and arrange to your needs!
-```HTML
+```html
 
 <calculator keypadMapping='[["1","2","3","CE"],
                             ["4", "5", "6", "="],
                             ["7", "8", "9", "0"],
                             ["(", "", "", ")"],
                             ["+", "-", "*", "/"]]'></calculator>
+                            
 ```
 One last attribute is the verbose one, that let the calculator show detailed operation and result into the developper's console thought console.log
-```HTML
+```html
 
 <calculator verbose></calculator>
+
 ```
 ## JAVASCRIPT Usage
 - addSymbol(string) => void <br>Adds a symbol to the screen. (WARNING! There is no validation of the symbol so be sure you don't pass in unhandled character inti this method!)
