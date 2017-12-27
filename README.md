@@ -57,6 +57,7 @@ One last attribute is the verbose one, that let the calculator show detailed ope
 <calculator verbose></calculator>
 
 ```
+[See demo for more information](https://github.com/lePioo/Calculator/blob/master/calculatorDemo.html)
 ## JAVASCRIPT Usage
 - addSymbol(string) => void <br>Adds a symbol to the screen. (WARNING! There is no validation of the symbol so be sure you don't pass in unhandled character inti this method!)
 - reset() => void <br>Resets the calculator. Same as pressing "CE" key.
