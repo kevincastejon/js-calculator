@@ -3,6 +3,6 @@
 ### It also offers styles features, themes, and keypad layout customization. 
 ### It gives access to useful methods for JS users such as infixToPostFix ,resolvePostFix or resolveInfix methods.
 <br>
-## Use on HTML
+## Use on 
 
 Basic usage:
