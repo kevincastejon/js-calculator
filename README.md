@@ -29,6 +29,7 @@ You can add custom style options to the calculator (even if a theme is selected,
 
 <calculator theme="dark" buttonBackgroundColor="green" screenBorderColor="#00FF00"></calculator>
 ```
+
 There is the list of all the available color attributes:
 - buttonColor - The color of the text into the keypad buttons
 - buttonBackgroundColor - The color of the keypad buttons background
@@ -39,6 +40,7 @@ There is the list of all the available color attributes:
 - borderColor - The color of the calculator border
 <br>
 You can specify your own layout for the keypad, in a very flexible way. Simply write JSON string representing a matrix array of the desired keypad, use blank string "" when you want no button (will leave a space) and arrange to your needs!
+
 ```html
 
 <calculator keypadMapping='[["1","2","3","CE"],
@@ -48,6 +50,7 @@ You can specify your own layout for the keypad, in a very flexible way. Simply w
                             ["+", "-", "*", "/"]]'></calculator>
                             
 ```
+
 One last attribute is the verbose one, that let the calculator show detailed operation and result into the developper's console thought console.log
 ```html
 
