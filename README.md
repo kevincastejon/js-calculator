@@ -6,7 +6,7 @@
 ## HTML Usage
 Basic usage:
 ```
-<calculator></calculator>
+    <calculator></calculator>
 ```
 The calculator will fit 100% of its container width and height.<br>
 You can add theme to the calculator. (The default one being "light" there is no need to specify it.)
