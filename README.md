@@ -5,12 +5,12 @@
 <br>
 ## HTML Usage
 Basic usage:
-```html
+```HTML
     <calculator></calculator>
 ```
 The calculator will fit 100% of its container width and height.<br>
 You can add theme to the calculator. (The default one being "light" there is no need to specify it.)
-```html
+```HTML
 <calculator theme="dark"></calculator>
 ```
 There is the list of all the valid themes names:
@@ -25,7 +25,7 @@ There is the list of all the valid themes names:
 - "inherit"
 <br>
 You can add custom style options to the calculator (even if a theme is selected, custom style will be applied after the theme).
-```html
+```HTML
 <calculator theme="dark" buttonBackgroundColor="green" screenBorderColor="#00FF00"></calculator>
 ```
 There is the list of all the available color attributes:
@@ -38,7 +38,7 @@ There is the list of all the available color attributes:
 - borderColor - The color of the calculator border
 <br>
 You can specify your own layout for the keypad, in a very flexible way. Simply write JSON string representing a matrix array of the desired keypad, use blank string "" when you want no button (will leave a space) and arrange to your needs!
-```html
+```HTML
 <calculator keypadMapping='[["1","2","3","CE"],
                             ["4", "5", "6", "="],
                             ["7", "8", "9", "0"],
@@ -46,7 +46,7 @@ You can specify your own layout for the keypad, in a very flexible way. Simply w
                             ["+", "-", "*", "/"]]'></calculator>
 ```
 One last attribute is the verbose one, that let the calculator show detailed operation and result into the developper's console thought console.log
-```html
+```HTML
 <calculator verbose></calculator>
 ```
 ## JAVASCRIPT Usage
