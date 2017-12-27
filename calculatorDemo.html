@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Calculator Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <script type="text/javascript" src="calculator.js"></script>
+</head>
+
+<body>
+    <h1>Calculator demo</h1>
+    <h3>A simple calculator with default behaviour</h3>
+    <h5>&lt;calculator>&lt;/calculator></h5>
+    <div style="width:150px; height:200px;">
+        <calculator></calculator>
+    </div>
+    <h2> <u>- Themes and style options</u></h2>
+    <h3>A calculator with dark theme</h3>
+    <h5>&lt;calculator theme="dark">&lt;/calculator></h5>
+    <div style="width:150px; height:200px;">
+        <calculator theme="dark"></calculator>
+    </div>
+    <h3>A calculator with blue theme</h3>
+    <h5>&lt;calculator theme="blue">&lt;/calculator></h5>
+    <div style="width:150px; height:200px;">
+        <calculator theme="blue"></calculator>
+    </div>
+    <h3>A calculator with custom style options</h3>
+    <h5>&lt;calculator buttonBackgroundColor="green" screenBorderColor="#FF00FF">&lt;/calculator></h5>
+    <div style="width:150px; height:200px;">
+        <calculator buttonBackgroundColor="green" screenBorderColor="#FF00FF"></calculator>
+    </div>
+    <h3>A calculator with base theme and overriding style options</h3>
+    <h5>&lt;calculator theme="red" backgroundColor="green" screenColor="blue">&lt;/calculator></h5>
+    <div style="width:150px; height:200px;">
+        <calculator theme="red" backgroundColor="green" screenColor="blue"></calculator>
+    </div>
+    <h2><u> - Keypad customization</u></h2>
+    <h3>A calculator with custom keypad layout</h3>
+    <h5>&lt;calculator keypadMapping=<br> '[&emsp;&emsp;["1","2","3","+"],
+        <br> &emsp; &emsp; ["4", "5", "6", "-"],<br> &emsp; &emsp; ["7", "8", "9", "*"],<br> &emsp; &emsp; ["(", "0", ")", "/"],<br> &emsp; &emsp; ["CE", ".", "=", "^"]&emsp; ]'>&lt;/calculator></h5>
+    <div style="width:150px; height:200px;">
+        <calculator keypadMapping='[["1","2","3","+"],
+        ["4", "5", "6", "-"],
+        ["7", "8", "9", "*"],
+        ["(", "0", ")", "/"],
+        ["CE", ".", "=", "^"]]'></calculator>
+    </div>
+    <h3>A calculator with custom keypad layout and key numbers</h3>
+    <h5>&lt;calculator keypadMapping=<br> '[&emsp;&emsp;["1","2","3","CE"],
+        <br> &emsp; &emsp; ["4", "5", "6", "="],<br> &emsp; &emsp; ["7", "8", "9", "0"],<br> &emsp; &emsp; ["+", "-", "*", "/"]&emsp; ]'>&lt;/calculator></h5>
+    <div style="width:150px; height:200px;">
+        <calculator keypadMapping='[["1","2","3","CE"],
+        ["4", "5", "6", "="],
+        ["7", "8", "9", "0"],
+        ["+", "-", "*", "/"]]'></calculator>
+    </div>
+    <h3>A calculator with custom keypad layout and key numbers including holes in matrix</h3>
+    <h5>&lt;calculator keypadMapping=<br> '[&emsp;&emsp;["1","2","3","CE"],
+        <br> &emsp; &emsp; ["4", "5", "6", "="],<br> &emsp; &emsp; ["7", "8", "9", "0"],<br> &emsp; &emsp; ["(", "", "", ")"],<br> &emsp; &emsp; ["+", "-", "*", "/"]&emsp; ]'>&lt;/calculator></h5>
+    <div style="width:150px; height:200px;">
+        <calculator keypadMapping='[["1","2","3","CE"],
+        ["4", "5", "6", "="],
+        ["7", "8", "9", "0"],
+        ["(", "", "", ")"],
+        ["+", "-", "*", "/"]]'></calculator>
+    </div>
+    <h2><u> - Verbose</u></h2>
+    <h3>A calculator with verbose activated</h3>
+    <h5>&lt;calculator verbose>&lt;/calculator> &lt;!--Will output detailed result on the browser developer console--></h5>
+    <div style="width:150px; height:200px;">
+        <calculator verbose></calculator>
+    </div>
+</body>
+
+</html>
