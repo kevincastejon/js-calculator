@@ -24,6 +24,6 @@ There is the list of all the valid themes names:
 - "inherit"
 <br>
 You can add custom style options to the calculator (even if a theme is selected, custom style will be applied after the theme):
-```HTML
+```html
 testestsetset
 ```
