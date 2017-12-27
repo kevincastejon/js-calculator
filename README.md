@@ -51,7 +51,7 @@ You can specify your own layout for the keypad, in a very flexible way. Simply w
                             
 ```
 
-One last attribute is the verbose one, that let the calculator show detailed operation and result into the developper's console thought console.log
+One last attribute is the verbose one, that let the calculator show detailed operation and result into the developper's console through console.log
 ```html
 
 <calculator verbose></calculator>
