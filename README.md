@@ -15,7 +15,7 @@ You can add theme to the calculator. (The default one being "light" there is no 
 There is the list of all the valid themes names:
 - "light" or "white" or "#FFFFFF"
 - "dark" or "black" or "#000000"
--  "red" or "#FF0000"
+- "red" or "#FF0000"
 - "green" or "#00FF00"
 - "blue" or "#0000FF"
 - "yellow" or "#FFFF00"
@@ -25,5 +25,5 @@ There is the list of all the valid themes names:
 <br>
 You can add custom style options to the calculator (even if a theme is selected, custom style will be applied after the theme).
 ```HTML
-<calculator theme="dark" buttonBackgroundColor="green" screenBorderColor="#00FF00"></calculator>
+    <calculator></calculator>
 ```
