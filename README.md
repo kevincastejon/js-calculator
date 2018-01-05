@@ -3,6 +3,11 @@
 ### It also offers styles features, themes, and keypad layout customization. 
 ### It gives access to useful methods for JS users such as infixToPostFix ,resolvePostFix or resolveInfix methods.
 ## HTML Usage
+
+[See sources](https://github.com/lePioo/Calculator/blob/master/calculatorDemo.html)
+
+[See demo](http://www.kevincastejon.fr/autres/demos/Calculator/calculatorDemo.html)
+
 Basic usage:
 ```HTML
     <calculator></calculator>
@@ -57,9 +62,7 @@ One last attribute is the verbose one, that let the calculator show detailed ope
 <calculator verbose></calculator>
 
 ```
-[See sources](https://github.com/lePioo/Calculator/blob/master/calculatorDemo.html)
-<br>
-[See demo](http://www.kevincastejon.fr/autres/demos/Calculator/calculatorDemo.html)
+
 ## JAVASCRIPT Usage
 - addSymbol(string) => void <br>Adds a symbol to the screen. (WARNING! There is no validation of the symbol so be sure you don't pass in unhandled character inti this method!)
 - reset() => void <br>Resets the calculator. Same as pressing "CE" key.
