@@ -255,7 +255,6 @@ class Calculator {
         
         else
             ratio = this._calcDiv.offsetHeight/200;
-        console.log(this._calcDiv.offsetWidth , this._calcDiv.offsetHeight);
 
         if (this._buttonFontSize == "auto") 
             this._calcDiv.style.fontSize = ratio + "em";
